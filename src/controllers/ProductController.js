@@ -10,11 +10,11 @@ class ProductController {
   }
 
   async store(req, res) {
-    const { image } = req.file;
+    const { filename } = req.file;
     const { title, description, price } = req.body;
 
     const product = await Product.create({
-      image,
+      image: filename,
       title,
       description,
       price,
