@@ -1,6 +1,6 @@
-# teste_re9it_backend
+# Dashboard (Portal de venda parafusos) - Back-end
 
-## Back-end do projeto Portal de parafusos RE9IT
+## Back-end do projeto Portal de venda de parafusos
 
 * Orientação a objetos;
 * Upload com multer;
